@@ -39,9 +39,9 @@ function checkContact() {
 }
 
 function checkAll() {
-    this.checkLastName();
-    this.checkName();
-    this.checkID();
+    checkLastName();
+    checkName();
+    checkID();
     checkRegion();
     checkContact();
 }
