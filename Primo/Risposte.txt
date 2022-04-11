@@ -1,0 +1,10 @@
+1- <html>       è un blocco
+2- <a>          inline
+3- <h1>-<h6>    è un blocco
+4- <ul>         è un blocco
+5- </br>        inline
+6- <li>         è un blocco
+7- <ol>         è un blocco
+8- <img>        inline
+9- <p>          è un blocco
+10- //          inline

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <script type="text/javascript" src="parteJS.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="post" name="registration" onSubmit=checkAll()>
+            <table class="table">
+                <tr>
+                    <td>LastName: <input type="text" name="lastname" size="40" maxlength="40" onChange=checkLastName()></td>
+                </tr>
+                <tr>
+                    <td>Name: <input type="text" name="name" size="30" maxlength="30" onChange=checkName()></td>
+                </tr>
+                <tr>
+                    <td>Matricola: <input type="number" name="matricola " size="12 " maxlength="12 " onChange=checkID()></td>
+                </tr>
+                <tr>
+                    <td>Region:
+                        <select name="region " onChange=checkRegion()>
+                        <option value="none " selected></option>
+                        <option value="valdaosta ">Val d'Aosta</option>
+                        <option value="piemonte ">Piemonte</option>
+                        <option value="liguria ">Liguria</option>
+                        <option value="lombardia ">Lombardia</option>
+                        <option value="veneto ">Veneto</option>
+                        <option value="trentino ">Trentino Alto Adige</option>
+                        <option value="friuli ">Friuli Venezia-Giulia</option>
+                        <option value="emilia ">Emilia-Romagna</option>
+                        <option value="toscana ">Toscana</option>
+                        <option value="marche ">Marche</option>
+                        <option value="umbria ">Umbria</option>
+                        <option value="lazio ">Lazio</option>
+                        <option value="abruzzo ">Abruzzo</option>
+                        <option value="molise ">Molise</option>
+                        <option value="campania ">Campania</option>
+                        <option value="basilicata ">Basilicata</option>
+                        <option value="puglia ">Puglia</option>
+                        <option value="calabria ">Calabria</option>
+                        <option value="sicilia ">Sicilia</option>
+                        <option value="sardegna ">Sardegna</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Email:<input type="text " name="email " size="30 " maxlength="30 "></td>
+                </tr>
+                <tr>
+                    <td>Telephone: <input type="text " name="tel " size="15 " maxlength="15 "></td>
+                </tr>
+                <tr>
+                    <td>Richieste particolari:</td>
+                </tr>
+                <tr>
+                    <td><textarea name="richieste " cols="60 " rows="12 "></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type=submit value=" Invia ">
+                        <input type=reset value="Reset "></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
